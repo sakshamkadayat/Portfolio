@@ -1,0 +1,76 @@
+.big-container {
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.container-home {
+  height: 90vh;
+  width: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.container-home img {
+  height: 330px;
+  background: none;
+  animation: animate 3s infinite ease alternate;
+}
+.content p{
+  color:#62feda;
+  font-size: 22px;
+}
+.content h1{
+  color: aliceblue;
+  font-size: 40px;
+}
+.content h2{
+  color: rgba(240, 248, 255, 0.445);
+  font-size: 35px;
+}
+.content{
+  margin:0px 0px 0px 122px;
+}
+hr.vertical {
+  border: none;
+  border-right: 1px solid whitesmoke;
+  height: 55vh; 
+  margin-left: 30px;
+  transform: rotate(180deg);
+}
+.container-right .right{
+  border: none;
+  border-right: 1px solid whitesmoke;
+  height: 30vh; 
+  margin-left: 90px;
+  transform: rotate(180deg);
+}
+.container-right a{
+  color: white;
+  text-decoration: none;
+}
+.container-right a:hover{
+  color: #62feda;
+}
+.container-social ul li a:hover i {
+  color: #62feda;
+}
+.container-social li{
+  margin: 5px 25px;
+  list-style: none;
+}
+.container-home a{
+  color: white;
+}
+.container-social{
+margin: 90px 0 0;
+}
+.container-home .vert{
+  margin-bottom:100px;
+  margin-top: 150px;
+  transform: rotate(90deg);
+}
+@keyframes animate {
+  to {
+    transform: translateY(30px);
+  }
+}
