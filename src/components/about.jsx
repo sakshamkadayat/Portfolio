@@ -1,5 +1,5 @@
 import "../components/about.css";
-import saksham from "../images/saksham.jpg";
+import saksham from "../images/pp.jpg";
 export default function About() {
   return (
     <div className="about-container">
@@ -18,7 +18,10 @@ export default function About() {
           designers to deliver high-quality solutions that exceed user
           expectations. Let's build something great together!
         </p>
+        <div className="image-overlay"></div>
+        <div className="back-overlay"></div>
         <img src={saksham} alt="photo" className="photo" />
+
       </div>
     </div>
   );

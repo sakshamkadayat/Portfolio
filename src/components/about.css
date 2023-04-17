@@ -1,17 +1,38 @@
 .about-container {
   color: white;
-  width: 50vw;
-  margin: 0 auto;
+  width: 80vw;
+  margin-left: 122px;
+  margin-bottom: 122px;
 }
-.container-middle img {
+.container-middle .para{
+  color: white;
+}
+
+.photo {
   height: 30vh;
+  margin-left: 200px;
+  z-index: 5;
   margin-bottom: 12px;
 }
-
 .container-middle {
+  position: relative;
   display: flex;
+  width: 70vw;
+  margin-left: 40px;
+}
+.image-overlay{
+  position: absolute;
+  height: 30vh;
+  width: 230px;
+  background-color: aquamarine;
+  opacity: 0.4;
+  right: 0;
+  z-index:10;
 }
 
+.image-overlay:hover{
+  background-color: transparent;
+}
 .about-container p,
 h3 {
   display: flex;
@@ -21,4 +42,19 @@ h3 {
 
 .head-section {
   display: flex;
+}
+.back-overlay{
+  position: absolute;
+  height: 30vh;
+  width: 230px;
+  background:transparent;
+  border: 3px solid #62ebcf;
+  right:-22px;
+  top:20px;
+  z-index:3;
+  transition: 0.3s linear;
+}
+.image-overlay:hover  + .back-overlay{
+  top:15px;
+  right: -15px;
 }
