@@ -32,15 +32,9 @@ export default function Experience() {
             >
               Test1
             </button>
-            <button onClick={() => handleButtonClick(Detail[1])}>
-              Test2
-            </button>
-            <button onClick={() => handleButtonClick(Detail[2])}>
-              Test3
-            </button>
-            <button onClick={() => handleButtonClick(Detail[3])}>
-              Test4
-            </button>
+            <button onClick={() => handleButtonClick(Detail[1])}>Test2</button>
+            <button onClick={() => handleButtonClick(Detail[2])}>Test3</button>
+            <button onClick={() => handleButtonClick(Detail[3])}>Test4</button>
           </div>
           <div className="right-content-container" style={{ color: "white" }}>
             <h1>{content.title}</h1>
@@ -57,7 +51,14 @@ export default function Experience() {
             <img className="img-1" src={code} alt="code" />
           </div>
           <div className="container-img-right">
-            <p>A gaming site where we can buy and sell gamming products</p>
+            <p>
+              I have developed an exciting gaming site that serves as a
+              marketplace for buying and selling various gaming products. Our
+              platform offers a wide range of items such as gift cards, gaming
+              coins, and much more. Explore our website to find the perfect
+              gaming products to enhance your gaming experience, whether you are
+              a buyer or a seller.
+            </p>
           </div>
         </div>
       </div>

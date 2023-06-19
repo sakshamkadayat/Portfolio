@@ -15,6 +15,7 @@
 .nav-list-container {
   display: flex;
 }
+
 .menu-container ul {
   list-style: none;
   display: flex;
