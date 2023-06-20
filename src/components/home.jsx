@@ -27,7 +27,7 @@ export default function Home() {
               <hr class="vertical" />
             </ul>
           </div>
-          <div className="content">
+          <div className="content global-font">
             <p>Hi, my name is </p>
             <h1>Saksham Kadayat.</h1>
             <h2>I build things for the web.</h2>

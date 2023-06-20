@@ -5,10 +5,10 @@ export default function About() {
     <div className="about-container">
       <div className="head-section">
         <p>0.1</p>
-        <h3>About Me</h3>
+        <h3 className="global-font">About Me</h3>
       </div>
       <div className="container-middle">
-        <p className="para">
+        <p className="para global-font">
           Hi, I'm Saksham Kadayat, a front-end web developer with 1 years of
           experience creating beautiful and functional user interfaces using
           React.js. My skills in HTML, CSS, React JS, and JavaScript allow me to

@@ -20,7 +20,7 @@ export default function Experience() {
     <>
       <div className="experience-container">
         <div className="title">
-          <p>
+          <p className="global-font">
             0.2<h2>Where I’ve Worked</h2>
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function Experience() {
             <button onClick={() => handleButtonClick(Detail[2])}>Test3</button>
             <button onClick={() => handleButtonClick(Detail[3])}>Test4</button>
           </div>
-          <div className="right-content-container" style={{ color: "white" }}>
+          <div className="right-content-container global-font" style={{ color: "white" }}>
             <h1>{content.title}</h1>
             <p>{content.text}</p>
           </div>
@@ -50,7 +50,7 @@ export default function Experience() {
           <div className="content-03">
             <img className="img-1" src={code} alt="code" />
           </div>
-          <div className="container-img-right">
+          <div className="container-img-right global-font">
             <p>
               I have developed an exciting gaming site that serves as a
               marketplace for buying and selling various gaming products. Our
@@ -62,6 +62,7 @@ export default function Experience() {
           </div>
         </div>
       </div>
+
     </>
   );
 }

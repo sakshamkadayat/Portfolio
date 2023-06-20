@@ -2,6 +2,7 @@
   display: flex;
   color: aquamarine;
   justify-content: center;
+  margin-bottom: 45px;
 }
 .container-03 p {
   display: flex;
@@ -25,7 +26,7 @@
   box-shadow: rgba(222, 240, 240, 0.4) 0px 4px 12px;
 }
 .container-03 :hover{
-  opacity: 1;
+  opacity: 2;
 
 }
 .content-03 {
@@ -38,6 +39,7 @@
   display: flex;
   border-radius: 12px;
   box-shadow: rgba(222, 240, 240, 0.4) 0px 4px 12px;
+  margin-left: 122px;
 }
 
 .content-container {
@@ -65,8 +67,11 @@
 }
 
 .right-content-container{
-  border: 2px solid;
+  text-align: center;
+  font-size: 0.9rem;
   height: 31vh;
   width: 55vw;
   margin-left: 12px;
+  border-radius: 4px;
+  box-shadow: rgba(231, 224, 224, 0.18) 0px 2px 4px;
 }
