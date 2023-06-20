@@ -17,15 +17,21 @@
 }
 .content p{
   color:#62feda;
-  font-size: 22px;
+  font-size: 1.5rem;
+  cursor: pointer;
+
 }
 .content h1{
   color: aliceblue;
-  font-size: 40px;
+  font-size: 2.4rem;
+  cursor: pointer;
+
 }
 .content h2{
   color: rgba(240, 248, 255, 0.445);
-  font-size: 35px;
+  font-size: 2.7rem;
+  cursor: pointer;
+
 }
 .content{
   margin:0px 0px 0px 122px;
@@ -67,7 +73,6 @@ left: 1090px;
 .container-home a{
   color: white;
 }
-/* ------------------ */
 .container-social{
 margin: 90px 0 0;
 position: fixed;
@@ -77,9 +82,4 @@ position: fixed;
   margin-bottom:100px;
   margin-top: 150px;
   transform: rotate(90deg);
-}
-@keyframes animate {
-  to {
-    transform: translateY(30px);
-  }
 }

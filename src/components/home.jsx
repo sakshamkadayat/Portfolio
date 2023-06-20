@@ -1,6 +1,6 @@
 import "./home.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Saksham from "../images/user-img.png";
+import * as LottiePlayer from "@lottiefiles/lottie-player";
 export default function Home() {
   return (
     <>
@@ -32,7 +32,15 @@ export default function Home() {
             <h1>Saksham Kadayat.</h1>
             <h2>I build things for the web.</h2>
           </div>
-          <img src={Saksham} alt="image" />
+          <div className="animation-container">
+            <lottie-player
+              autoplay
+              loop
+              mode="normal"
+              src="https://assets6.lottiefiles.com/packages/lf20_w51pcehl.json"
+              style={{ width: "90%"  }}
+            ></lottie-player>
+          </div>
           <div className="container-right">
             <p className="vert">
               <a href="#">sakshamkadayat@gmail.com</a>
