@@ -10,34 +10,31 @@
   justify-content: center;
   margin-bottom: 22px;
 }
-.image-dis-container{
+.image-dis-container {
   display: flex;
-  position: relative; 
-
+  position: relative;
 }
-.container-img-right{
+.container-img-right {
   border-radius: 12px;
   height: 35vh;
-  width:40vw;
+  width: 40vw;
   left: 550px;
   top: 70px;
   position: absolute;
   padding: 28px;
   box-shadow: rgba(222, 240, 240, 0.4) 0px 4px 12px;
 }
-.container-03 :hover{
+.container-03 :hover {
   opacity: 2;
-
 }
 .content-03 {
   background-color: aquamarine;
   opacity: 0.6;
   height: 60vh;
-  width: 54vw;
+  width: 53vw;
   margin-left: 66px;
   margin-bottom: 122px;
   display: flex;
-  border-radius: 12px;
   box-shadow: rgba(222, 240, 240, 0.4) 0px 4px 12px;
   margin-left: 122px;
 }
@@ -51,7 +48,7 @@
 }
 .left-content-container button {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   color: white;
   width: 12vw;
   height: 7vh;
@@ -62,11 +59,11 @@
   background-color: #233554;
   border-radius: 4px;
 }
-.left-content-container button:hover{
+.left-content-container button:hover {
   background-color: #2014c7;
 }
 
-.right-content-container{
+.right-content-container {
   text-align: center;
   font-size: 0.9rem;
   height: 31vh;
@@ -74,4 +71,46 @@
   margin-left: 12px;
   border-radius: 4px;
   box-shadow: rgba(231, 224, 224, 0.18) 0px 2px 4px;
+}
+
+.right-content-container img {
+  height: 9vh;
+}
+.container-digital-den-main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.container-right-digital{
+  background-color: aquamarine;
+  height: 60vh;
+  width: 54vw;
+  margin-left: 66px;
+  margin-bottom: 122px;
+  display: flex;
+  box-shadow: rgba(222, 240, 240, 0.4) 0px 4px 12px;
+  margin-left: 422px;
+}
+.container-right-digital img{
+  opacity: 0.8;
+  width: 59vw;
+}
+.container-right-digital img:hover{
+  opacity: 1;
+}
+.container-left-digital {
+  height: 35vh;
+  width: 40vw;
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  border-radius: 12px;
+  background-color: #0a192f;
+  padding: 45px;
+  box-shadow: rgba(231, 224, 224, 0.18) 0px 2px 4px;
+  text-align: start;
+  font-size: 0.9rem;
+  color: aquamarine;
+  z-index:1;
 }

@@ -16,8 +16,9 @@ export default function About() {
           seamlessly to different devices. I take pride in writing clean,
           maintainable code and collaborating with other developers and
           designers to deliver high-quality solutions that exceed user
-          expectations. Let's build something great together!
+          expectations. Let's build something great together!      
         </p>
+        
         <div className="image-overlay"></div>
         <div className="back-overlay"></div>
         <img src={saksham} alt="photo" className="photo" />
