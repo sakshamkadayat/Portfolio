@@ -1,36 +1,36 @@
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
-import logo from "../../images/logo.png";
+// import logo from "../../images/logo.png";
 export default function Navbar() {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
-    <>
-      <div className="nav-list-container">
-        <img src={logo} alt="logo" />
-        <div className="menu-container">
-          <ul>
-            <li>
-              <a href="#">
-                <p>0.1</p>Home
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p>02.</p>Experience
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p>03.</p>Work
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p>04.</p>Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-        <button className="btn">Resume</button>
-      </div>
-    </>
+    <header>
+      <h3>LOGO</h3>
+      <nav ref={navRef}>
+        <a href="/#">
+          <span style={{ color: "#62feda" }}>0.1</span>Home
+        </a>
+        <a href="/#">
+          <span style={{ color: "#62feda" }}>0.2</span>Experience
+        </a>
+        <a href="/#">
+          <span style={{ color: "#62feda" }}>0.3</span>Work
+        </a>
+        <a href="/#">
+          <span style={{ color: "#62feda" }}>0.4</span>Contact
+        </a>
+        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes />
+        </button>
+      </nav>
+      <button className="nav-btn" onClick={showNavbar}>
+        <FaBars />
+      </button>
+    </header>
   );
 }

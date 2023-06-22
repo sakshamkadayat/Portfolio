@@ -90,7 +90,7 @@ export default function Experience() {
         <div className="container-right-digital">
           <img src={Digital} alt="img" />
         </div>
-      </div>
+      </div>   
     </>
   );
 }
